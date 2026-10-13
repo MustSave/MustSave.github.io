@@ -8,6 +8,22 @@ layout: default
   {{ content }}
 </article>
 
+{% if page.mermaid %}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@12.2.0/dist/mermaid.esm.min.mjs';
+  const blocks = document.querySelectorAll('code.language-mermaid, .language-mermaid code');
+  for (const block of blocks) {
+    const diagram = document.createElement('pre');
+    diagram.className = 'mermaid';
+    diagram.textContent = block.textContent;
+    const wrapper = block.closest('div.highlighter-rouge') || block.closest('pre');
+    if (wrapper) wrapper.replaceWith(diagram);
+  }
+  mermaid.initialize({ startOnLoad: false, theme: 'dark', securityLevel: 'strict' });
+  await mermaid.run({ querySelector: '.mermaid' });
+</script>
+{% endif %}
+
 {% if site.related_posts != empty %}
 <aside class="related">
   <h3>Related posts</h3>
