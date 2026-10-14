@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [보안]
+tags: [xss, javascript, web-security]
 title: "문자열을 지웠는데 실행 가능한 코드가 만들어졌다"
 date: 2026-10-13 00:00:00 +0900
 permalink: /posts/xss-string-filter/
