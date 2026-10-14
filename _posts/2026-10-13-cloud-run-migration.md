@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [클라우드]
+tags: [cloud-run, gcp, terraform, kubernetes]
 title: "얼굴 생성 서비스를 Cloud Run으로 전환한 이유"
 date: 2026-10-13 00:00:00 +0900
 permalink: /posts/cloud-run-migration/
