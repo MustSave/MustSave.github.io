@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [개발 도구]
+tags: [perforce, codex, automation]
 title: "Perforce 파일 수정 전에 체크아웃을 연결한 Hook"
 date: 2026-10-13 00:00:00 +0900
 permalink: /posts/perforce-hook/

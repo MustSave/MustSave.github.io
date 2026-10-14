@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [머신러닝]
+tags: [pytorch, numpy, ppo]
 title: "싸피레이스에서 학습은 PyTorch로, 추론은 NumPy로 나눈 이유"
 date: 2026-10-13 00:00:00 +0900
 permalink: /posts/ssafy-race/

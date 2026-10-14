@@ -1,5 +1,7 @@
 ---
 layout: post
+categories: [성능 개선]
+tags: [unreal-engine, cpp, parallelfor]
 title: "MorphTarget 처리의 독립 계산을 ParallelFor로 분리하기"
 date: 2026-10-13 00:00:00 +0900
 permalink: /posts/morph-parallelization/
